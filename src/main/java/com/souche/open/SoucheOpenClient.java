@@ -42,7 +42,7 @@ public class SoucheOpenClient {
     /**
      * 执行隐私 API 请求
      * @param request 具体的 API 请求类
-     * @return 具体的 API 响应类
+     * @return T 具体的 API 响应类
      * @throws ApiException if HttpRequest Fail
      */
     public <T extends BaseResponse> T execute(BaseRequest<T> request) throws ApiException {

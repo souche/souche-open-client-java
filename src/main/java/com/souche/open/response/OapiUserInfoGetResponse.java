@@ -40,7 +40,7 @@ public class OapiUserInfoGetResponse extends BaseResponse {
         // 性别 1:女 2:男
         private Integer sex;
         // 钉钉部门
-        private Integer dingDepartment;
+        private String dingDepartment;
         // 最近一次登录IP
         private String lastLoginIp;
         // 工号
@@ -149,11 +149,11 @@ public class OapiUserInfoGetResponse extends BaseResponse {
             this.sex = sex;
         }
 
-        public Integer getDingDepartment() {
+        public String getDingDepartment() {
             return dingDepartment;
         }
 
-        public void setDingDepartment(Integer dingDepartment) {
+        public void setDingDepartment(String dingDepartment) {
             this.dingDepartment = dingDepartment;
         }
 
